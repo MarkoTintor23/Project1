@@ -1,0 +1,63 @@
+* {
+  padding: none;
+  margin: none;
+}
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  justify-content: center;
+}
+.main-box {
+  width: auto;
+  height: auto;
+  background-color: hsl(0, 0%, 12%);
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+  margin-top: 120px;
+  border-radius: 10px;
+}
+.link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.jessica-picture {
+  width: 30%;
+  border-radius: 50%;
+}
+p {
+  text-align: center;
+}
+.paragraph-name {
+  font-size: 20px;
+  color: hsl(0, 0%, 100%);
+}
+.paragraph-street {
+  font-size: 12px;
+  color: hsl(75, 94%, 57%);
+  line-height: 2px;
+  padding-bottom: 15px;
+}
+.paragraph-description {
+  font-size: 12px;
+  color: hsl(0, 0%, 46%);
+  padding-bottom: 5px;
+}
+.btn {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 20%);
+  cursor: pointer;
+  border: none;
+}
+.btn:hover,
+.btn:active {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 20%);
+}
